@@ -4,7 +4,7 @@ set -e
 
 PLISTBUDDY=/usr/libexec/PlistBuddy
 
-BLACKLIST_URL=https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/BLACKLIST
+BLACKLIST_URL=https://raw.githubusercontent.com/goXXip/nvidia-update/master/BLACKLIST
 UPDATE_URL=https://gfe.nvidia.com/mac-update
 
 SYSTEM_BUILD=$(system_profiler SPSoftwareDataType | grep 'System Version:' | cut -d '(' -f 2 | cut -d ')' -f 1)
