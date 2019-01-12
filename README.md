@@ -7,7 +7,7 @@ The simplest way to install nVidia drivers on macOS.
 Simply copy and paste the following in a terminal:
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh)
+bash <(curl -s https://raw.githubusercontent.com/goXXip/nvidia-update/master/nvidia-update.sh)
 ```
 
 # How does it work?
@@ -52,7 +52,7 @@ Simply run the script again, it'll take care of the rest, updating and/or patchi
 # Install a specific driver version
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh) <revision>
+bash <(curl -s https://raw.githubusercontent.com/goXXip/nvidia-update/master/nvidia-update.sh) <revision>
 ```
 
 Where `<revision>` is a driver version e.g. `378.10.10.10.25.106`
@@ -62,7 +62,7 @@ Where `<revision>` is a driver version e.g. `378.10.10.10.25.106`
 You can clone this repository or download the script with the following command:
 
 ```
-curl -O https://raw.githubusercontent.com/Benjamin-Dobell/nvidia-update/master/nvidia-update.sh
+curl -O https://raw.githubusercontent.com/goXXip/nvidia-update/master/nvidia-update.sh
 chmod 755 nvidia-update.sh
 ```
 
